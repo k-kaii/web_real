@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tubes Website</title>
+    <link rel="stylesheet" href="gaya.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">SRD STORE</div>
+        <nav class="main-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#product">Product</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+            <button class="cart-button" onclick="location.href='keranjang.html'">
+                <i class="fas fa-shopping-cart"></i> Keranjang
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Selamat Datang di Toko Kami</h1>
+            <a href="#product" class="cta-button">Lihat Koleksi</a>
+        </div>
+    </section>
+
+    <section id="about" class="content-section about-section">
+        <div class="container">
+            <h2>Tentang Kami (About)</h2>
+            <p>Website yang Anda kunjungi ini adalah wujud nyata dari proses pembelajaran kami dalam mata kuliah
+            Pemrograman WEB. Ini bukan sekadar Tugas Besar biasa, melainkan sebuah arena bagi kami untuk 
+            mengaplikasikan ilmu, menghadapi tantangan debugging, dan belajar berkolaborasi secara efektif.
+            Kami adalah sebuah tim yang terdiri dari 3 individu dengan latar belakang dan keahlian yang beragam. 
+            Setiap baris kode yang berjalan di situs ini adalah hasil dari diskusi, review, dan semangat pantang menyerah 
+            kami dalam menyelesaikan proyek ini tepat waktu. </p>
+        </div>
+    </section>
+
+    <section id="product" class="content-section products-section">
+        <div class="container">
+            <h2>Berikut produk yang kami buat!!</h2>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="p1.jpeg" alt="Produk A">
+                    <h3>Parfum Outdoor</h3>
+                    <p class="price">Rp 350.000</p>
+                    <button class="buy-button" data-name="Parfum Outdoor" data-price="350000">Beli Sekarang</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="p2.jpeg" alt="Produk B">
+                    <h3>Parfum Indoor</h3>
+                    <p class="price">Rp 420.000</p>
+                    <button class="buy-button" data-name="Parfum Indoor" data-price="420000">Beli Sekarang</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="p3.jpeg" alt="Produk C">
+                    <h3>Parfum Date</h3>
+                    <p class="price">Rp 500.000</p>
+                    <button class="buy-button" data-name="Parfum Date" data-price="500000">Beli Sekarang</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="service" class="content-section service-section">
+        <div class="container">
+            <h2>Layanan Kami (Service)</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-truck fa-3x"></i>
+                    <h3>Pengiriman Cepat</h3>
+                    <p>Layanan pengiriman seluruh Indonesia.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-undo-alt fa-3x"></i>
+                    <h3>Garansi & Retur</h3>
+                    <p>Garansi 30 hari uang kembali.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-headset fa-3x"></i>
+                    <h3>Dukungan 24/7</h3>
+                    <p>Tim kami siap membantu kapan saja.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section contact-section">
+        <div class="container">
+            <h2>Hubungi Kami (Contact)</h2>
+            <p>Apabila terdapat kecacatan atau kekurangan di produk kami hubungi kami di sini.</p>
+            
+            <div class="contact-flex">
+                <form class="contact-form">
+                    <input type="text" placeholder="Nama Anda" required>
+                    <input type="email" placeholder="Email Anda" required>
+                    <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                    <button type="submit" class="cta-button">Kirim Pesan</button>
+                </form>
+                
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. UNIVERSITAS SURYAKANCANA</p>
+                    <p><i class="fas fa-phone"></i> +62 812 3456 7890</p>
+                    <p><i class="fas fa-envelope"></i> ifb2024@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Website Tubes PWD.</p>
+    </footer>
+
+<script src="tmp.js"></script>
+</body>
+</html>
